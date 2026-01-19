@@ -1,0 +1,26 @@
+/* XPM */
+static char *goomba3[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c black",
+"X c #9C4A00",
+"o c #FFCEC5",
+/* pixels */
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"                ",
+"      XXXX      ",
+"   XXXXXXXXXX   ",
+" XX...XXXX...XX ",
+"XXoooo....ooooXX",
+"XXXXXXXXXXXXXXXX",
+"   oooooooooo   ",
+"    oooooooo    ",
+" .....    ..... "
+};

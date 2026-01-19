@@ -1,0 +1,26 @@
+/* XPM */
+static char *stopping[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #6B6D00",
+"X c #B53120",
+"o c #EA9E22",
+/* pixels */
+"     XXXXX      ",
+"   .XXXXXXXX    ",
+"  ......o.o     ",
+" oo.oo.oooooo   ",
+" oo.oo..oo..oo  ",
+"  oo.oooooo..   ",
+"   XXX...Xoo    ",
+"  XXooo.XX...   ",
+"  X.ooo......   ",
+"  XXXoo......   ",
+"   XXXXX....    ",
+"   X...XXXX     ",
+"    ....XXX     ",
+" . .XX...X      ",
+" .....X         ",
+"  ....          "
+};

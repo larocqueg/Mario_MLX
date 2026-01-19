@@ -1,0 +1,26 @@
+/* XPM */
+static char *gramasolo[] = {
+/* columns rows colors chars-per-pixel */
+"32 16 4 1 ",
+"  c None",
+". c black",
+"X c #00A800",
+"o c #80D010",
+/* pixels */
+"              ....              ",
+"             .oooo.             ",
+"           ..oooooo.            ",
+"          .oooooooo. .          ",
+"          .ooooooooo.o.         ",
+"          .ooooooXooooo.        ",
+"         .oooXXoooXoooo.        ",
+"        .oooXoooooooooo.        ",
+"     ...oooooooooooooooo.  .    ",
+"    .ooooooooooooooooooo. .o.   ",
+"   .ooooooooooooooooooooo.oo.   ",
+"   ooooooooooooooooooooooooo. . ",
+" ..oooooooooooooooooooooooooo.o.",
+".oooooooooooooooooooooooooooooo.",
+".oooooooooooooooooooooooooooooo.",
+" .oooooooooooooooooooooooooooo. "
+};

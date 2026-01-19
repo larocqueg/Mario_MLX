@@ -1,0 +1,26 @@
+/* XPM */
+static char *powerup0[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c black",
+"X c #C84C0C",
+"o c #FC9838",
+/* pixels */
+" XXXXXXXXXXXXXX ",
+"Xoooooooooooooo.",
+"Xo.oooooooooo.o.",
+"XooooXXXXXooooo.",
+"XoooXX...XXoooo.",
+"XoooXX.ooXX.ooo.",
+"XoooXX.ooXX.ooo.",
+"Xoooo..oXXX.ooo.",
+"XooooooXX...ooo.",
+"XooooooXX.ooooo.",
+"Xooooooo..ooooo.",
+"XooooooXXoooooo.",
+"XooooooXX.ooooo.",
+"Xo.ooooo..ooo.o.",
+"Xoooooooooooooo.",
+"................"
+};

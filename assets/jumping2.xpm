@@ -1,0 +1,26 @@
+/* XPM */
+static char *jumping2[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #388700",
+"X c #EA9E22",
+"o c #FFFEFF",
+/* pixels */
+"             XXX",
+"      ooooo  XXX",
+"     oooooooooXX",
+"     ...XX.X ...",
+"    .X.XXX.XX...",
+"    .X..XXX.XXX.",
+"    ..XXXX..... ",
+"      XXXXXXX.  ",
+"  .....o...o.   ",
+" .......o...o  .",
+"XX......ooooo  .",
+"XXX oo.ooXooXo..",
+" X .oooooooooo..",
+"  ...ooooooooo..",
+" ...ooooooo     ",
+" .  oooo        "
+};

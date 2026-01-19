@@ -1,0 +1,26 @@
+/* XPM */
+static char *death[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #6B6D00",
+"X c #B53120",
+"o c #EA9E22",
+/* pixels */
+"      XXXX      ",
+"   o XXXXXX o   ",
+" ooo.o.oo.o.ooo ",
+" oo..o.oo.o..oo ",
+" oo...oooo...oo ",
+"   ....oo....   ",
+"    .o....o.    ",
+"    .oooooo.    ",
+"   XXXooooXXX   ",
+"  ..XX....XX..  ",
+"  ...XX..XX...  ",
+"  ...XoXXoX...  ",
+"  ...XXXXXX...  ",
+"   ..XXXXXX..   ",
+"                ",
+"                "
+};

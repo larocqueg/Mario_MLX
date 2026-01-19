@@ -1,0 +1,26 @@
+/* XPM */
+static char *gramatripla[] = {
+/* columns rows colors chars-per-pixel */
+"64 16 4 1 ",
+"  c None",
+". c black",
+"X c #00A800",
+"o c #80D010",
+/* pixels */
+"              ....            ....            ....              ",
+"             .oooo.          .oooo.          .oooo.             ",
+"           ..oooooo.       ..oooooo.       ..oooooo.            ",
+"          .oooooooo. .    .oooooooo. .    .oooooooo. .          ",
+"          .ooooooooo.o.   .ooooooooo.o.   .ooooooooo.o.         ",
+"          .ooooooXooooo.  .ooooooXooooo.  .ooooooXooooo.        ",
+"         .oooXXoooXoooo. .oooXXoooXoooo. .oooXXoooXoooo.        ",
+"        .oooXoooooooooo..oooXoooooooooo..oooXoooooooooo.        ",
+"     ...oooooooooooooooooooooooooooooooooooooooooooooooo.  .    ",
+"    .ooooooooooooooooooooooooooooooooooooooooooooooooooo. .o.   ",
+"   .ooooooooooooooooooooooooooooooooooooooooooooooooooooo.oo.   ",
+"   ooooooooooooooooooooooooooooooooooooooooooooooooooooooooo. . ",
+" ..oooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.o.",
+".oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.",
+".oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.",
+" .oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo. "
+};

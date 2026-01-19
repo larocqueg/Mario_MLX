@@ -1,0 +1,26 @@
+/* XPM */
+static char *pipeleft[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c black",
+"X c #00A800",
+"o c #80D010",
+/* pixels */
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo",
+"  .oooXXoooooXoo"
+};

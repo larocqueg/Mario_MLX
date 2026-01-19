@@ -1,0 +1,33 @@
+/* XPM */
+static char *nuvemdupla[] = {
+/* columns rows colors chars-per-pixel */
+"48 24 3 1 ",
+"  c None",
+". c black",
+"X c gray99",
+/* pixels */
+"              ....            ....              ",
+"             .XXXX.          .XXXX.             ",
+"           ..XXXXXX.       ..XXXXXX.            ",
+"          .XXXXXXXX. .    .XXXXXXXX. .          ",
+"          .XXXXXXXXX.X.   .XXXXXXXXX.X.         ",
+"          .XXXXXX XXXXX.  .XXXXXX XXXXX.        ",
+"         .XXX  XXX XXXX. .XXX  XXX XXXX.        ",
+"        .XXX XXXXXXXXXX..XXX XXXXXXXXXX.        ",
+"     ...XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.  .    ",
+"    .XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX. .X.   ",
+"   .XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.XX.   ",
+"   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX. . ",
+" ..XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.X.",
+".XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.",
+".XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.",
+" .XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX. ",
+"  .XX XXXXXXXXXXX XXXXXXXXXXXXXXX XXXXXXXXXXX.  ",
+"   .XX XX XXXXXX XXXXXXXX XXXXXX XXXXXXXXXXXXX. ",
+"    .XX    XXX    XXXX X   XXX    XXXX XXXXXXXX.",
+"    .XXXXX      X     XXXX      X     XXXXXXXXX ",
+"     ...XXXX  XXXX   XXXXXXX  XXXX   XXXXXXXX.. ",
+"        .XXXXXX.XXXXXXXX.XXXXXX.XXXXXXXX.XX..   ",
+"         ..XXX. ..XXXX.. ..XXX. ..XXXX.. ..     ",
+"           ...    ....     ...    ....          "
+};

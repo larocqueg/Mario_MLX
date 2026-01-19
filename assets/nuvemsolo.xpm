@@ -1,0 +1,34 @@
+/* XPM */
+static char *nuvemsolo[] = {
+/* columns rows colors chars-per-pixel */
+"32 24 4 1 ",
+"  c None",
+". c black",
+"X c #3CBCFC",
+"o c gray99",
+/* pixels */
+"              ....              ",
+"             .oooo.             ",
+"           ..oooooo.            ",
+"          .oooooooo. .          ",
+"          .ooooooooo.o.         ",
+"          .ooooooXooooo.        ",
+"         .oooXXoooXoooo.        ",
+"        .oooXoooooooooo.        ",
+"     ...oooooooooooooooo.  .    ",
+"    .ooooooooooooooooooo. .o.   ",
+"   .ooooooooooooooooooooo.oo.   ",
+"   ooooooooooooooooooooooooo. . ",
+" ..oooooooooooooooooooooooooo.o.",
+".oooooooooooooooooooooooooooooo.",
+".oooooooooooooooooooooooooooooo.",
+" .oooooooooooooooooooooooooooo. ",
+"  .ooXoooooooooooXooooooooooo.  ",
+"   .ooXooXooooooXooooooooooooo. ",
+"    .ooXXXXoooXXXXooooXoooooooo.",
+"    .oooooXXXXXXoXXXXXooooooooo ",
+"     ...ooooXXooooXXXoooooooo.. ",
+"        .oooooo.oooooooo.oo..   ",
+"         ..ooo. ..oooo.. ..     ",
+"           ...    ....          "
+};

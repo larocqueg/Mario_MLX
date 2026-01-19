@@ -1,0 +1,26 @@
+/* XPM */
+static char *pipetopleft[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c black",
+"X c #00A800",
+"o c #80D010",
+/* pixels */
+"................",
+".ooooooooooooooo",
+".XXXXXooooooXXXX",
+".oooXXooooooXooX",
+".oooXXooooooXooX",
+".oooXXooooooXooX",
+".oooXXooooooXooX",
+".oooXXooooooXooX",
+".oooXXooooooXooX",
+".oooXXooooooXooX",
+".oooXXooooooXooX",
+".oooXXooooooXooX",
+".oooXXooooooXooX",
+".oooXXooooooXooX",
+"................",
+"  .............."
+};

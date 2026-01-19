@@ -1,0 +1,26 @@
+/* XPM */
+static char *walkingl1[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c None",
+". c #388700",
+"X c #EA9E22",
+"o c #FFFEFF",
+/* pixels */
+"     ooooo      ",
+"    ooooooooo   ",
+"    ...XX.X     ",
+"   .X.XXX.XXX   ",
+"   .X..XXX.XXX  ",
+"   ..XXXX....   ",
+"     XXXXXXX    ",
+"    ..o...      ",
+"   ....oo..     ",
+"   ...ooXooX    ",
+"   ....ooooo    ",
+"   o..XXXooo    ",
+"    o.XXooo     ",
+"     ooo...     ",
+"     .......    ",
+"     ....       "
+};

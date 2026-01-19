@@ -1,0 +1,18 @@
+/* XPM */
+static char *selector[] = {
+/* columns rows colors chars-per-pixel */
+"8 8 4 1 ",
+"  c None",
+". c black",
+"X c #9C4A00",
+"o c #FFCEC5",
+/* pixels */
+"  XXXX  ",
+" XXXXXX ",
+" XXXXXX ",
+"XXXXXXXX",
+"XXXXXXXX",
+"XXXXXXXX",
+" .oooo. ",
+"  oooo  "
+};

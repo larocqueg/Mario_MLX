@@ -1,0 +1,28 @@
+/* XPM */
+static char *morrinho[] = {
+/* columns rows colors chars-per-pixel */
+"48 19 3 1 ",
+"  c None",
+". c black",
+"X c #00A800",
+/* pixels */
+"                     ......                     ",
+"                  ...XXXXXX...                  ",
+"                ..XXXXXXXXXXXX..                ",
+"               .XXXXXXXXXXXXX.XX.               ",
+"              .XXXXXXXXXXXXX...XX.              ",
+"             .XXXXXXXXXXXXXX...XXX.             ",
+"            .XXXXXXXXXXXXXXX...XXXX.            ",
+"           .XXXXXXXXXXXXX..X...XXXXX.           ",
+"          .XXXXXXXXXXXXXX..XX.XXXXXXX.          ",
+"         .XXXXXXXXXXXXXXX..XXXXXXXXXXX.         ",
+"        .XXXXXXXXXXXXXXXX..XXXXXXXXXXXX.        ",
+"       .XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.       ",
+"      .XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.      ",
+"     .XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.     ",
+"    .XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.    ",
+"   .XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.   ",
+"  .XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.  ",
+" .XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX. ",
+".XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX."
+};
