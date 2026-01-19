@@ -6,7 +6,7 @@
 #    By: gde-la-r <gde-la-r@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/01/19 17:32:15 by gde-la-r          #+#    #+#              #
-#    Updated: 2026/01/19 17:37:51 by gde-la-r         ###   ########.fr        #
+#    Updated: 2026/01/19 19:20:46 by gde-la-r         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -60,7 +60,7 @@ $(MLX):
 	fi
 	@$(MAKE) -C $(MLX_DIR)
 
-run:
+run: all
 	./mario maps/1-1.ber
 
 clean:
