@@ -15,7 +15,7 @@ The map is composed of characters that represent each element of the map, them b
 -  M: Represent where the player will spawn, this also is the reference for the second player;
 -  Z: Unbreakable brick blocks;
 -  B: Breakable bricks;
--  X: ? blocks;
+-  X: Question mark blocks;
 -  1: Main floor;
 -  0: Empty spaces;
 -  G: Bushes;
