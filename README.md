@@ -13,7 +13,14 @@ make run
 ## Map
 The map is composed of characters that represent each element of the map, them beeing:
 -  M: Represent where the player will spawn, this also is the reference for the second player;
--  Z: Brick blocks;
+-  Z: Unbreakable brick blocks;
+-  B: Breakable bricks;
+-  X: ? blocks;
 -  1: Main floor;
--  
+-  0: Empty spaces;
+-  G: Bushes;
+-  T: Big cloud;
+-  D: Medium cloud;
+-  S: Small cloud;
+-  F: Flag;
 -  K and I:  K is the bottom part of the tubes and I is the top part;
