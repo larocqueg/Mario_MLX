@@ -1,7 +1,7 @@
 # Mario mlx
 
 This project was made to learn how to use mlx and create animations for a simple game, the goal was to recreate the first map of the original mario game. 
-It was made using MLX (A simple ```X-Window X11R6 programming API in C```, designed for students of 42 school).
+It was made using MLX (A simple ```X-Window X11R6 programming API in C```, designed for 42 school students).
 
 ## How to use
 
@@ -10,17 +10,8 @@ make run
 ```
 - This will compile and run the game using the map provided inside the folder ```./maps/1-1.ber```
 
-## Map
-The map is composed of characters that represent each element of the map, them beeing:
--  M: Represent where the player will spawn, this also is the reference for the second player;
--  Z: Unbreakable brick blocks;
--  B: Breakable bricks;
--  X: Question mark blocks;
--  1: Main floor;
--  0: Empty spaces;
--  G: Bushes;
--  T: Big cloud;
--  D: Medium cloud;
--  S: Small cloud;
--  F: Flag;
--  K and I:  K is the bottom part of the tubes and I is the top part;
+# Game preview
+
+<p align="center">
+  <img src="assets/preview.gif" width="640">
+</p>
