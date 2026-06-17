@@ -46,10 +46,10 @@ OBJS=$(SRCS:.c=.o)
 all: $(NAME)
 
 $(NAME) : $(MLX) $(LIBFT) $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) $(LDFLAGS) -o $(NAME)
+	@$(CC) $(CFLAGS) $(OBJS) $(LDFLAGS) -o $(NAME)
 
 %.o : %.c
-	$(CC) $(CFLAGS) -I $(INCLUDES) -c $^ -o $@
+	@$(CC) $(CFLAGS) -I $(INCLUDES) -c $^ -o $@
 
 $(LIBFT):
 	@make -C $(LIBFT_DIR) --no-print-directory
