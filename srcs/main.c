@@ -1,13 +1,13 @@
 /* ************************************************************************** */
-/*    */
-/*  :::::::::::   */
-/*   main.c   :+::+:    :+:   */
-/*    +:+ +:+   +:+     */
-/*   By: rafaelfe <rafaelfe@student.42porto.com>    +#+  +:+ +#+  */
-/*+#+#+#+#+#+   +#+     */
-/*   Created: 2025/01/25 17:42:20 by rafaelfe    #+#    #+# */
-/*   Updated: 2025/05/15 16:45:52 by rafaelfe   ###   ########.fr */
-/*    */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: gabriel <gabriel@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/06/17 16:38:05 by gabriel           #+#    #+#             */
+/*   Updated: 2026/06/17 16:38:45 by gabriel          ###   ########.fr       */
+/*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/game.h"
@@ -17,7 +17,10 @@ int	main(int ac, char **av)
 	t_game	game;
 
 	if (ac != 2)
+	{
+		ft_putstr_fd("ERROR, Usage: ./mario maps/1-1.ber", 2);
 		return (0);
+	}
 	if (!check_args(av[1]))
 	{
 		ft_printf("Error, Could not read file!\n");

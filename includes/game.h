@@ -14,7 +14,9 @@
 # define game_H
 # include "../libs/libft/includes/libft.h"
 # include "../libs/mlx/mlx.h"
-# include "../libs/mlx/mlx_int.h"
+# include <X11/X.h>
+# include <X11/keysymdef.h>
+#include <X11/keysym.h>
 # include <strings.h>
 # include <limits.h>
 # include <math.h>

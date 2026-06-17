@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: gabriel <gabriel@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2026/01/19 17:32:15 by gde-la-r          #+#    #+#              #
-#    Updated: 2026/06/17 16:23:30 by gabriel          ###   ########.fr        #
+#    Created: 2026/06/17 16:34:48 by gabriel           #+#    #+#              #
+#    Updated: 2026/06/17 16:48:02 by gabriel          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,13 +46,19 @@ OBJS=$(SRCS:.c=.o)
 all: $(NAME)
 
 $(NAME) : $(MLX) $(LIBFT) $(OBJS)
-	@$(CC) $(CFLAGS) $(OBJS) $(LDFLAGS) -o $(NAME)
+	$(CC) $(CFLAGS) $(OBJS) $(LDFLAGS) -o $(NAME)
 
 %.o : %.c
-	@$(CC) $(CFLAGS) -I $(INCLUDES) -c $^ -o $@
+	$(CC) $(CFLAGS) -I $(INCLUDES) -c $^ -o $@
 
 $(LIBFT):
 	@make -C $(LIBFT_DIR) --no-print-directory
+
+$(MLX):
+	if [ ! -d "$(MLX_DIR)" ]; then \
+		git clone https://github.com/42Paris/minilibx-linux.git $(MLX_DIR); \
+	fi
+	@$(MAKE) -C $(MLX_DIR)
 
 run: all
 	./mario maps/1-1.ber
@@ -67,11 +73,13 @@ clean:
 	@echo "Cleaning Objects!"
 fclean: clean
 	@rm -rf $(NAME)
+	if [ -d "$(MLX_DIR)" ]; then \
+		rm -rf $(MLX_DIR); \
+	fi
+
 	@make fclean -C $(LIBFT_DIR) --no-print-directory
 	@echo "Cleaning Objects and executable"
 
 re: fclean all
 
-.PHONY: all clean fclean re
-
-
+.PHONY: run all clean fclean re
