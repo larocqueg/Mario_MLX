@@ -15,14 +15,15 @@
 # include "../libs/libft/includes/libft.h"
 # include "../libs/mlx/mlx.h"
 # include <X11/X.h>
-# include <X11/keysymdef.h>
-#include <X11/keysym.h>
+# include <X11/keysym.h>
+# include <stdio.h>
 # include <strings.h>
+# include <stdbool.h>
+# include <string.h>
 # include <limits.h>
 # include <math.h>
 # include <sys/time.h>
-# include <stdbool.h>
-# include <string.h>
+# include <errno.h>
 
 # define SCREEN_SIZE_X 854
 # define SCREEN_SIZE_Y 480

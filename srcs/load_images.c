@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   load_images.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rafaelfe <rafaelfe@student.42porto.com>    +#+  +:+       +#+        */
+/*   By: gde-la-r <gde-la-r@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/26 11:25:34 by rafaelfe          #+#    #+#             */
-/*   Updated: 2025/06/08 18:36:19 by rafaelfe         ###   ########.fr       */
+/*   Updated: 2026/04/20 18:08:19 by gde-la-r         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/game.h"
-
 
 void get_textures(t_game *game)
 {
@@ -67,10 +66,9 @@ void get_textures(t_game *game)
 	ft_load_images(game, &game->powerup[2], "./assets/powerup2.xpm");
 
 	if (!ft_load_images(game, &game->flag, "./assets/flag.xpm"))
-	{
-		perror("failed to load flag\n");
-	}
+		perror("Failed to load images!\n");
 }
+
 int	ft_load_images(t_game *game, t_image *image, char *name)
 {
 	image->img = mlx_xpm_file_to_image(game->mlx_ptr, \

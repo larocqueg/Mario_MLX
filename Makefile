@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gabriel <gabriel@student.42.fr>            +#+  +:+       +#+         #
+#    By: gde-la-r <gde-la-r@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2026/06/17 16:34:48 by gabriel           #+#    #+#              #
-#    Updated: 2026/06/17 16:48:02 by gabriel          ###   ########.fr        #
+#    Created: 2026/01/19 17:32:15 by gde-la-r          #+#    #+#              #
+#    Updated: 2026/01/19 19:20:46 by gde-la-r         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -82,4 +82,6 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: run all clean fclean re
+.PHONY: all clean fclean re
+
+
