@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gde-la-r <gde-la-r@student.42porto.com>    +#+  +:+       +#+         #
+#    By: gabriel <gabriel@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/01/19 17:32:15 by gde-la-r          #+#    #+#              #
-#    Updated: 2026/01/19 19:20:46 by gde-la-r         ###   ########.fr        #
+#    Updated: 2026/06/17 16:23:30 by gabriel          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,12 +54,6 @@ $(NAME) : $(MLX) $(LIBFT) $(OBJS)
 $(LIBFT):
 	@make -C $(LIBFT_DIR) --no-print-directory
 
-$(MLX):
-	if [ ! -d "$(MLX_DIR)" ]; then \
-		git clone https://github.com/42Paris/minilibx-linux.git $(MLX_DIR); \
-	fi
-	@$(MAKE) -C $(MLX_DIR)
-
 run: all
 	./mario maps/1-1.ber
 
@@ -73,10 +67,6 @@ clean:
 	@echo "Cleaning Objects!"
 fclean: clean
 	@rm -rf $(NAME)
-	if [ -d "$(MLX_DIR)" ]; then \
-		rm -rf $(MLX_DIR); \
-	fi
-
 	@make fclean -C $(LIBFT_DIR) --no-print-directory
 	@echo "Cleaning Objects and executable"
 
