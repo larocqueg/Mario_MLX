@@ -202,9 +202,9 @@ float accel;
 				game->player2.is_on_ground = false;
 			}
 	}
-		if (newpos.x == game->player2.pos.x && newpos.y == game->player2.pos.y && game->player2.animation_state == JUMPING)
-			game->player2.animation_state = IDLE;
-		game->player2.pos.x = newpos.x;
+	if (game->player2.is_on_ground && newpos.x == game->player2.pos.x && newpos.y == game->player2.pos.y && game->player2.animation_state == JUMPING)
+		game->player2.animation_state = IDLE;
+	game->player2.pos.x = newpos.x;
 		game->player2.pos.y = newpos.y;
 }
 

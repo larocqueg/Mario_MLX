@@ -205,7 +205,7 @@ void	draw_enemies(t_game *game, float offsetX)
 			continue;
 		if (game->goombas[i].pos.y < 16 && game->goombas[i].pos.x >= game->cameraX - TILE_SIZE && game->goombas[i].pos.x - game->cameraX < 30)
 		{
-			frames = game->power_up_frames % 2;
+			frames = game->goomba_frame;
 			if (game->goombas[i].stopped)
 				frames = 2;
 			drawplayer(game, (t_point){(game->goombas[i].pos.x - offsetX) * (TILE_SIZE * SCALE), game->goombas[i].pos.y * (TILE_SIZE * SCALE)}, &game->goomba[frames], SCALE, game->goombas[i].left, game->goombas[i].outofgame);

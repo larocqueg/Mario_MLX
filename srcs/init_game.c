@@ -29,6 +29,7 @@ void	game_init(t_game *game)
 	game->player.direction.x = 0;
 	game->player.direction.y = 0;
 	game->power_up_frames = 0;
+	game->goomba_frame = 0;
 	game->player.current_frame = 0;
 	game->last_frame_time = get_time();
 	game->player.left = false;

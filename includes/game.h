@@ -24,6 +24,7 @@
 # include <math.h>
 # include <sys/time.h>
 # include <errno.h>
+# include <unistd.h>
 
 # define SCREEN_SIZE_X 854
 # define SCREEN_SIZE_Y 480
@@ -45,6 +46,8 @@
 # define JUMP_SPEED 8.9
 # define GRAVITY 30
 # define ENEMY_SPEED 2.1f
+# define FPS 60
+# define FRAME_TIME_USEC (1000000 / FPS)
 
 typedef struct s_point
 {
@@ -186,6 +189,7 @@ typedef struct s_game
 	float		cameraX;
 	t_image		image;
 	int			power_up_frames;
+	int			goomba_frame;
 	bool		started;
 	bool		ended_p1;
 	bool		ended_p2;

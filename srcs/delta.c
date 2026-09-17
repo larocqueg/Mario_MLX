@@ -14,6 +14,13 @@
 
 void	calculate_Delta(t_game *game)
 {
-	game->delta = (get_time() - game->last_frame_time) / 1000.0f;
-	game->last_frame_time = get_time();
+	long long	now;
+
+	now = get_time();
+	game->delta = (float)(now - game->last_frame_time) / 1000000.0f;
+	if (game->delta > 0.05f)
+		game->delta = 0.05f;
+	if (game->delta < 0.0f)
+		game->delta = 0.0f;
+	game->last_frame_time = now;
 }

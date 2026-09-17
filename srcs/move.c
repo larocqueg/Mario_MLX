@@ -202,9 +202,9 @@ void	move(t_game *game)
 				game->player.is_on_ground = false;
 			}
 	}
-		if (newpos.x == game->player.pos.x && newpos.y == game->player.pos.y && game->player.animation_state == JUMPING)
-			game->player.animation_state = IDLE;
-		game->player.pos.x = newpos.x;
+	if (game->player.is_on_ground && newpos.x == game->player.pos.x && newpos.y == game->player.pos.y && game->player.animation_state == JUMPING)
+		game->player.animation_state = IDLE;
+	game->player.pos.x = newpos.x;
 		game->player.pos.y = newpos.y;
 }
 

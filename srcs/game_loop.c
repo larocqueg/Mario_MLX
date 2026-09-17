@@ -57,6 +57,21 @@ int	renderer(t_game *game)
 
 int	game_loop(t_game *game)
 {
+	long long	current_time;
+	long long	elapsed;
+	long long	remaining;
+
+	current_time = get_time();
+	elapsed = current_time - game->last_frame_time;
+	if (elapsed < FRAME_TIME_USEC)
+	{
+		remaining = FRAME_TIME_USEC - elapsed;
+		if (remaining > 2000)
+			usleep(remaining / 2);
+		else
+			usleep(100);
+		return (0);
+	}
 	update(game);
 	renderer(game);
 	return (1);

@@ -14,17 +14,23 @@
 
 void	animation_times(t_game *game)
 {
-	static float accumulator;
-	accumulator += game->delta;
+	static float	powerup_accum;
+	static float	goomba_accum;
 
-	if (accumulator > 0.25)
+	powerup_accum += game->delta;
+	if (powerup_accum > 0.25f)
 	{
 		game->power_up_frames++;
 		if (game->power_up_frames > 2)
 			game->power_up_frames = 0;
-		accumulator = 0;
+		powerup_accum -= 0.25f;
 	}
-
+	goomba_accum += game->delta;
+	if (goomba_accum > 0.20f)
+	{
+		game->goomba_frame = (game->goomba_frame + 1) % 2;
+		goomba_accum -= 0.20f;
+	}
 }
 
 void	animation_player(t_game *game, t_frames *anim, int type)
