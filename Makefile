@@ -12,7 +12,7 @@
 
 NAME= mario
 CC= cc
-CFLAGS = -g  -I $(INCLUDES)
+CFLAGS = -g  -I $(INCLUDES) -std=gnu17
 LDFLAGS =  -L $(LIBFT_DIR) -lft -L $(MLX_DIR) -lmlx_Linux -lXext -lX11 -lm
 INCLUDES= ./includes
 LIBFT_DIR= ./libs/libft
